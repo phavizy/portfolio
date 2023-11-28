@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", "sans-serif";
+}
+body{
+   
+    height:100vh ;
+    width: 100%;
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    color: black;
+    overflow: auto;
+    background-image: url('https://images.pexels.com/photos/8083741/pexels-photo-8083741.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+   /* background-image: url('https://images.pexels.com/photos/6475578/pexels-photo-6475578.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    /*background-image: url('https://images.pexels.com/photos/4069113/pexels-photo-4069113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+*/
+}
+
+.logo {
+    display: flex;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: whitesmoke;
+    
+}
+
+.container{
+    background-color: #333333;
+    width: 100%;
+    position: fixed;
+   
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    line-height: 80px;
+    z-index: 111;
+    
+
+}
+.dot {
+    color: pink;
+    font-size: 35px;
+    font-weight: 850;
+    size: 70px;
+}
+
+.navit li{
+    list-style: none;
+    margin: 0 15px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+header{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+color: pink;
+text-shadow: 0 0 2px violet;
+
+}
+.navit{
+    display: flex;
+}
+h1{
+    margin-top: 90px;
+}
+
+.socials {
+    font-size: 25px;
+    margin: 25px,10px;
+}
+.talent{
+    border-right: 5px solid;
+    animation: 
+    typing 2s steps(25), cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% {border-color: transparent}
+}
+
+@keyframes typing{
+    from {width:0};
+}
+
+#box1 #lefty{
+    width:55%;
+    margin-left: 5%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 20px;
+    padding-bottom: 8%;
+    background-color: rgb(191, 79, 116);
+    color: azure;
+    box-shadow: 0 0 50px rgb(49, 49, 49);
+} 
+#box1{
+    display: flex;
+}
+aside{
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 2%;
+    border-radius: 20px;
+    padding-bottom: 3%;
+    background-color: aliceblue;
+    width: 25%;
+    background-color: #333333;
+    color: aliceblue;
+    justify-items: center;
+}
+#skills{
+    margin-left: 5%;
+    margin-top: 6%;
+    padding: 2%;
+    padding-bottom: 6%;
+    padding-top: 5%;
+    width: 90%;
+    border-radius: 15px;
+    background-color: skyblue;
+}
+
+#projects {
+    margin-left: 5%;
+    margin-top: 6%;
+    margin-bottom: 60px;
+    padding: 2%;
+    padding-top: 5%;
+    padding-bottom: %;
+    width: 90%;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+#qoute{
+    color: orange;
+    font-style: oblique;
+}
+#imgcase {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-self: center;
+    margin-left: 10%;
+
+}
+#dp{
+    height: 250px;
+    width: 230px;
+    border-radius: 9px;
+    object-fit: cover;
+    justify-self: center;
+}
